@@ -1,4 +1,9 @@
 # Gulp-integration-project
 
+```bash
 npm install
-npm run watch ou bien gulp
+```
+
+```bash
+npm run watch 
+```
