@@ -4,6 +4,8 @@ bin-release/
 [Oo]bj/
 [Bb]in/
 node_modules
+keygit
+keygit.pub
 # Other files and folders
 .settings/
 
