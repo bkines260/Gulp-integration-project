@@ -69,6 +69,13 @@ function nodePackages(){
   return src(reduced, {   
     since: gulp.lastRun(nodePackages)
   })
+  .pipe(uglify()) 
+  .pipe(rename(function(opt) {
+    if(!opt.basename.endsWith('.min')){
+      opt.basename=opt.basename+'.min'
+    }
+    return opt;       
+  }))
   .pipe(dest('themes/custom/my-project/dist/assets/js/modules')) 
 }
 
