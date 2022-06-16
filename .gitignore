@@ -3,6 +3,7 @@ bin-debug/
 bin-release/
 [Oo]bj/
 [Bb]in/
+# project
 node_modules
 themes/custom/my-project/dist/assets/js/*.js
 themes/custom/my-project/dist/assets/js/modules/*.js
@@ -12,6 +13,7 @@ themes/custom/my-project/dist/assets/images/**
 themes/custom/my-project/dist/*.html
 keygit
 keygit.pub
+
 # Other files and folders
 .settings/
 
