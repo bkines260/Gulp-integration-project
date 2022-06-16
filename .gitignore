@@ -7,7 +7,9 @@ node_modules
 themes/custom/my-project/dist/assets/js/*.js
 themes/custom/my-project/dist/assets/js/modules/*.js
 themes/custom/my-project/dist/assets/stylesheets/*.css
-themes/custom/my-project/dist/assets/images/*
+themes/custom/my-project/dist/assets/images/*.png
+themes/custom/my-project/dist/assets/images/*.jpg
+themes/custom/my-project/dist/assets/images/*.svg
 themes/custom/my-project/dist/*.html
 keygit
 keygit.pub
